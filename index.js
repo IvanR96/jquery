@@ -1,3 +1,3 @@
+$('h1').text("Welcome");
 
-
-$("button");
+$("button").text("Click Here");
