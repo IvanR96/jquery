@@ -4,10 +4,10 @@ $("button").text("Click Here");
 
 $("a").attr("href", "https://www.youtube.com");
 
-$("button").click(function (){
-    $("h1").css("color", "blue");
+
+$("button").on("click", function(){
+    $("h1").toggle();
 });
 
-$("h1").on("click", function(){
-    $("h1").css("color", "blue");
-});
+$("h1").before("<button>New</button>");
+// can use after to create after selected element
