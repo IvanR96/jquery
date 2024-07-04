@@ -6,7 +6,7 @@ $("a").attr("href", "https://www.youtube.com");
 
 
 $("button").on("click", function(){
-    $("h1").fadeOut();
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
 });
 
 $("h1").before("<button>New</button>");
