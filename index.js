@@ -5,7 +5,7 @@ $("button").text("Click Here");
 $("a").attr("href", "https://www.youtube.com");
 
 
-$("button").on("click", function(){
+$("button").click(function(){
     $("h1").slideUp().slideDown().animate({opacity: 0.5});
 });
 
