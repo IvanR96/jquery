@@ -10,4 +10,3 @@ $("button").on("click", function(){
 });
 
 $("h1").before("<button>New</button>");
-// can use after to create after selected element
