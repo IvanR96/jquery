@@ -1,12 +1,10 @@
-$('h1').text("Welcome to jQuery!");
+$("h1").addClass("big-title");
 
-$("button").text("Click Here");
+$("button").html("<em>Hey</em>");
 
-$("a").attr("href", "https://www.youtube.com");
+$("img").attr("src");
+
+$("a").attr("href", "https://www.yahoo.com");
 
 
-$("button").click(function(){
-    $("h1").slideUp().slideDown().animate({opacity: 0.5});
-});
 
-$("h1").before("<button>New</button>");
